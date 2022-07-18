@@ -1,26 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-07-18T19:19:22.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="aDck8mp5FoL9G5lwmc_H" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-18T19:36:31.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hptvvc2TO5-40Ttc2Apl" version="20.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1038" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="onBDhJLRBMHMgnsm3Jni-0" value="Built-in" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="90" width="510" height="600" as="geometry" />
+          <mxGeometry x="140" y="90" width="510" height="740" as="geometry" />
         </mxCell>
         <mxCell id="onBDhJLRBMHMgnsm3Jni-1" value="Global" style="swimlane;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-0">
-          <mxGeometry x="10" y="70" width="490" height="510" as="geometry" />
+          <mxGeometry x="10" y="70" width="490" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="onBDhJLRBMHMgnsm3Jni-2" value="Enclosed" style="swimlane;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-1">
-          <mxGeometry x="10" y="30" width="420" height="340" as="geometry" />
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-2" value="Enclosed" style="swimlane;fontColor=#009900;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-1">
+          <mxGeometry x="10" y="70" width="470" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="onBDhJLRBMHMgnsm3Jni-3" value="Local" style="swimlane;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-2">
-          <mxGeometry x="10" y="30" width="390" height="290" as="geometry" />
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-3" value="Local" style="swimlane;fontColor=#CC0000;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-2">
+          <mxGeometry x="180" y="75" width="270" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="onBDhJLRBMHMgnsm3Jni-5" value="path" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-0">
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-8" value="def &lt;b&gt;check_user(user_name:str)-&amp;gt;bool:&lt;br&gt;&lt;font color=&quot;#990000&quot;&gt;_checked&lt;/font&gt;:bool = False&lt;br&gt;if user_name == &#39;user&#39;:&lt;br&gt;&lt;/b&gt;&lt;b&gt;&lt;font color=&quot;#990000&quot;&gt;_checked&lt;/font&gt; = True&lt;br&gt;&lt;/b&gt;&lt;b&gt;return &lt;font color=&quot;#660000&quot;&gt;_checked&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-3">
+          <mxGeometry x="10" y="35" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.276;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="onBDhJLRBMHMgnsm3Jni-2" source="onBDhJLRBMHMgnsm3Jni-7" target="onBDhJLRBMHMgnsm3Jni-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-7" value="&lt;b&gt;def foo():&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;font color=&quot;#009900&quot;&gt;name&lt;/font&gt; = &#39;user&#39;&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;font color=&quot;#ff33ff&quot;&gt;USERS&lt;/font&gt;.append(name)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;print(check_user(name))&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-2">
+          <mxGeometry x="10" y="350" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="onBDhJLRBMHMgnsm3Jni-2" source="onBDhJLRBMHMgnsm3Jni-8" target="onBDhJLRBMHMgnsm3Jni-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="480" />
+              <mxPoint x="210" y="480" />
+              <mxPoint x="210" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-6" value="&lt;b&gt;&lt;font color=&quot;#b266ff&quot;&gt;USERS&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-1">
+          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-5" value="path" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-0">
           <mxGeometry x="70" y="40" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="onBDhJLRBMHMgnsm3Jni-4" value="str" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-0">
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-4" value="str" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="onBDhJLRBMHMgnsm3Jni-0">
           <mxGeometry x="20" y="40" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="onBDhJLRBMHMgnsm3Jni-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="215" />
+              <mxPoint x="30" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onBDhJLRBMHMgnsm3Jni-13" value="&lt;a href=&quot;http://espressocode.top/SCOPE-resolution-in-python-legb-rule/&quot;&gt;http://espressocode.top/SCOPE-resolution-in-python-legb-rule/&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF33FF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="95" y="10" width="600" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
