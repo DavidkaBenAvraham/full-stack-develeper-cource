@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T13:38:33.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="p9SX1nNI-EU1ivHnHnTp" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-21T13:41:41.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CQhYdWTU1Y13t3cERCYA" version="20.1.4" type="github">
   <diagram id="GIHewP-j0oGt1fBGNd5E" name="Распределение памяти при работе программы">
-    <mxGraphModel dx="3978" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2805" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -919,9 +919,11 @@
         <mxCell id="1WYaRV3NgBx14uuo26nu-1563" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;этот участок памяти интерпретатор выделил нам для нашей программы.&amp;nbsp;&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;span style=&quot;font-size: 16px; font-weight: 400;&quot;&gt;Для объектов выделяется часть памятим в котой хранятся все переменные, константы, объекты и прочие изменяемые значения&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;fontColor=#FF3399;" vertex="1" parent="1WYaRV3NgBx14uuo26nu-1167">
           <mxGeometry x="455" y="40" width="485" height="285" as="geometry" />
         </mxCell>
-        <mxCell id="1WYaRV3NgBx14uuo26nu-1565" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;fontSize=16;fontColor=#FF3399;flipV=1;direction=north;" vertex="1" parent="1WYaRV3NgBx14uuo26nu-1167">
-          <mxGeometry x="-360" y="230" width="430" height="130" as="geometry" />
-        </mxCell>
+        <UserObject label="" tooltip="Загружается алгоритм выпонения программы&#xa;" id="1WYaRV3NgBx14uuo26nu-1565">
+          <mxCell style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.bendArrow;dy=15;dx=38;notch=0;arrowHead=55;rounded=1;fontSize=16;fontColor=#FF3399;flipV=1;direction=north;" vertex="1" parent="1WYaRV3NgBx14uuo26nu-1167">
+            <mxGeometry x="-360" y="230" width="430" height="130" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="1WYaRV3NgBx14uuo26nu-1549" value="" style="group" vertex="1" connectable="0" parent="1WYaRV3NgBx14uuo26nu-372">
           <mxGeometry x="1160" y="80" width="685" height="1599" as="geometry" />
         </mxCell>
