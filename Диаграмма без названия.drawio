@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T13:43:34.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="zgQUlR1jxwL7-09rnoH2" version="20.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-21T13:48:57.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IhXSrP9frpkIQtu2PGzo" version="20.1.4" type="github">
   <diagram id="GIHewP-j0oGt1fBGNd5E" name="Распределение памяти при работе программы">
-    <mxGraphModel dx="3978" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+    <mxGraphModel dx="3978" dy="2076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4705,7 +4705,7 @@
           <mxGeometry x="1785" y="161" width="182.63" height="69.4" as="geometry" />
         </mxCell>
         <mxCell id="1WYaRV3NgBx14uuo26nu-1640" value="" style="shape=doubleArrow;direction=west;whiteSpace=wrap;html=1;fontSize=16;fontColor=#FF3399;rotation=-165;arrowWidth=0.47013188199345374;arrowSize=0.3488696669968211;" parent="1WYaRV3NgBx14uuo26nu-372" vertex="1">
-          <mxGeometry x="-95" y="1070" width="300" height="160" as="geometry" />
+          <mxGeometry x="-104.06" y="1138.81" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="1WYaRV3NgBx14uuo26nu-1043" value="Вычислитель" style="swimlane;fontSize=16;fontColor=#FF3399;" parent="1" vertex="1">
           <mxGeometry x="-780" y="880" width="260" height="680" as="geometry" />
